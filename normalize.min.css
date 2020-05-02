@@ -1,0 +1,14 @@
+/* Code tidied up by ScrapBook */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+html { font-family: sans-serif; }
+body { margin: 0px; }
+a { background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px; }
+a:focus { outline: thin dotted; }
+a:active, a:hover { outline: 0px none; }
+h1 { font-size: 2em; margin: 0.67em 0px; }
+b, strong { font-weight: 700; }
+img { border: 0px none; }
+button, input, select, textarea { font-family: inherit; font-size: 100%; margin: 0px; }
+button, input { line-height: normal; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0px none; padding: 0px; }

@@ -1,0 +1,98 @@
+/* Code tidied up by ScrapBook */
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video { margin: 0px; padding: 0px; border: 0px none; font: inherit; vertical-align: baseline; }
+body { line-height: 1; }
+#react-root, article, div, footer, header, main, nav, section { -moz-box-align: stretch; align-items: stretch; border: 0px solid rgb(0, 0, 0); box-sizing: border-box; display: flex; -moz-box-orient: vertical; -moz-box-direction: normal; flex-direction: column; flex-shrink: 0; margin: 0px; padding: 0px; position: relative; }
+body { background:rgba(var(--d87,255,255,255),1); overflow-y: scroll; }
+html {  }
+html, body, #react-root { height: 100%; }
+body, button, input, textarea { color:rgba(var(--i1d,38,38,38),1); font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; font-size: 14px; line-height: 18px; }
+a, a:visited { color:rgba(var(--fe0,0,55,107),1); text-decoration: none; }
+a:active { opacity: 0.5; }
+.embedSpriteComment, .embedSpriteGlyph, .embedSpriteHeartOpen, .embedSpriteHeartOpenRed, .embedSpriteLogoLarge, .embedSpritePlayButton, .embedSpriteSaveOpen, .embedSpriteShare, .embedSpriteStoryRing, .embedSpriteVerifiedBadgeSmall, .embedSpriteWordmark { background-image: url("d7bcbaf5d4c9.png"); }
+.embedSpriteComment { background-repeat: no-repeat; background-position: -225px -53px; height: 24px; width: 24px; }
+.embedSpriteGlyph, .embedSpriteHeartOpen, .embedSpriteHeartOpenRed { background-repeat: no-repeat; background-position: -251px -53px; height: 24px; width: 24px; }
+.embedSpriteHeartOpen, .embedSpriteHeartOpenRed { background-position: -277px -53px; }
+.embedSpriteHeartOpenRed { background-position: -137px -103px; }
+.embedSpriteSaveOpen, .embedSpriteShare, .embedSpriteStoryRing { background-repeat: no-repeat; background-position: -163px -103px; height: 24px; width: 24px; }
+.embedSpriteShare, .embedSpriteStoryRing { background-position: -189px -103px; }
+.embedSpriteStoryRing { background-position: -187px -53px; height: 36px; width: 36px; }
+@media not all, not all, (min-resolution: 144dpi) {
+  .embedSpriteComment, .embedSpriteGlyph, .embedSpriteHeartOpen, .embedSpriteHeartOpenRed, .embedSpritePlayButton, .embedSpriteSaveOpen, .embedSpriteShare, .embedSpriteStoryRing, .embedSpriteVerifiedBadgeSmall { background-image: url("031e3f72ab64.png"); }
+  .embedSpriteComment, .embedSpriteGlyph { background-size: 172px 160px; background-position: -136px -37px; }
+  .embedSpriteGlyph { background-position: -136px -62px; }
+  .embedSpriteHeartOpen, .embedSpriteHeartOpenRed { background-size: 172px 160px; background-position: -136px -87px; }
+  .embedSpriteHeartOpenRed { background-position: 0px -136px; }
+  .embedSpritePlayButton, .embedSpriteSaveOpen { background-size: 172px 160px; background-position: 0px 0px; }
+  .embedSpriteSaveOpen { background-position: -25px -136px; }
+  .embedSpriteShare, .embedSpriteStoryRing { background-size: 172px 160px; background-position: -50px -136px; }
+  .embedSpriteStoryRing { background-position: -136px 0px; }
+}
+body, html { background-color: rgb(255, 255, 255); overflow: hidden; }
+.Embed { display: block; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; font-size: 14px; line-height: 18px; text-align: left; -moz-user-select: none; }
+.Embed:hover { cursor: pointer; }
+.Embed a { color: rgb(38, 38, 38); }
+.Embed a:hover { text-decoration: underline; }
+.Content { padding-bottom: 100%; position: relative; }
+.EmbeddedMedia { background-color: rgb(250, 250, 250); bottom: 0px; left: 0px; position: absolute; right: 0px; top: 0px; }
+.EmbeddedMedia:active { opacity: 1; }
+.EmbeddedMediaImage { width: 100%; height: 100%; pointer-events: none; }
+.AvatarContainer, .Header { display: flex; -moz-box-direction: normal; -moz-box-align: center; align-items: center; }
+.Header { height: 54px; -moz-box-orient: horizontal; flex-direction: row; padding: 10px; }
+.AvatarContainer { background-color: rgb(255, 255, 255); padding: 2px; border-radius: 50%; -moz-box-orient: vertical; flex-direction: column; -moz-box-pack: center; justify-content: center; }
+.Avatar { display: block; width: 30px; height: 30px; }
+.InsideRing { position: absolute; }
+.Avatar img { border-radius: 50%; width: 30px; height: 30px; }
+.Avatar:hover { opacity: 0.5; }
+.StoryRing { display: block; }
+.HeaderText { -moz-box-align: start; align-items: flex-start; flex-shrink: 1; -moz-box-flex: 1; flex-grow: 1; margin: 0px 10px; overflow: hidden; }
+.HeaderSecondaryContent { -moz-box-orient: horizontal; -moz-box-direction: normal; flex-direction: row; color: rgb(142, 142, 142); line-height: 14px; font-size: 12px; }
+.HeaderSecondaryContent > *::before { content: " ·"; display: inline-block; margin-left: 4px; margin-right: 4px; }
+@media (max-width: 330px) {
+  .FollowerCountText::before, .FromIGTV { display: none; }
+}
+a.Username { -moz-box-align: center; align-items: center; display: flex; -moz-box-orient: horizontal; -moz-box-direction: normal; flex-direction: row; font-weight: 600; text-overflow: ellipsis; width: 100%; white-space: nowrap; }
+.LocationAndSponsor, a.Username .UsernameText { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+a.Username .UsernameText { display: block; max-width: calc(100% - 21px); }
+.HeaderCta { -moz-box-flex: 1; flex: 1 1 auto; display: flex; -moz-box-orient: horizontal; -moz-box-direction: normal; flex-flow: row nowrap; -moz-box-pack: end; justify-content: flex-end; margin-left: 15px; }
+.HeaderCta a.FollowButton, .HeaderCta a.ViewProfileButton { margin-left: 10px; }
+a.FollowButton, a.ViewProfileButton { background-color: rgb(0, 149, 246); border-radius: 3px; color: rgb(255, 255, 255); flex-shrink: 0; font-weight: 600; margin-left: 10px; padding: 5px 12px; text-decoration: none; }
+a.FollowButton:hover, a.ViewProfileButton:hover { background-color: rgb(0, 116, 204); text-decoration: none; }
+@media (max-width: 420px) {
+}
+.Feedback, .Feedback a { display: flex; }
+.Feedback { -moz-box-orient: horizontal; -moz-box-direction: normal; flex-direction: row; padding: 8px 10px; }
+.Feedback a { -moz-box-align: center; align-items: center; font-size: 80%; text-decoration: none; }
+.Comments, .Likes { margin-right: 12px; }
+.Likes .LikeSpriteHover { display: none; }
+.Likes:hover .LikeSpriteHover { display: inline-block; }
+.Comments:hover, .Glyph:hover, .Save:hover { opacity: 0.5; }
+.Save { margin-left: auto; }
+.SocialProof { display: flex; -moz-box-orient: horizontal; -moz-box-direction: normal; flex-direction: row; -moz-box-align: start; align-items: flex-start; padding: 0px 10px 6px; }
+.SocialProof a { font-weight: 600; }
+.Caption { display: block; line-height: 18px; padding: 0px 10px 10px; }
+.CaptionComments { display: block; padding-top: 6px; }
+.Caption a { color: rgb(0, 55, 107); }
+a.CaptionUsername { color: rgb(38, 38, 38); font-weight: 600; margin: -5px 0px -5px -5px; padding: 5px; }
+a.CaptionCommentsExpand { color: rgb(142, 142, 142); }
+.Footer { -moz-box-align: center; align-items: center; border-top: 1px solid rgb(238, 238, 238); -moz-box-orient: horizontal; -moz-box-direction: normal; flex-direction: row; height: 44px; padding: 0px 10px; }
+a.CommentInput { color: rgb(142, 142, 142); line-height: 17px; font-size: 14px; padding: 0px; }
+a.CommentInput, a.CommentInput:hover { text-decoration: none; }
+.Glyph { display: flex; margin-left: auto; }
+.Sprite, .hidden, .hideText { overflow: hidden; text-indent: -99999em; }
+.hidden { height: 0px; width: 0px; }
+.Sprite { display: inline-block; }
+.EmbedFrame { position: relative; padding-bottom: 100%; }
+.EmbedFrameWithSidecar .Image, .Likes:hover .LikeSprite { display: none; }
+.PrimaryCTA { background-color: rgb(255, 255, 255); border-bottom: 1px solid rgb(239, 239, 239); display: flex; height: 44px; -moz-box-pack: center; justify-content: center; margin-left: 12px; margin-right: 12px; }
+.HoverCardStatus span, .PrimaryCTA a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.PrimaryCTA a { font-weight: 600; color: rgb(0, 149, 246); font-size: 14px; }
+.HoverCard .HoverCardRoot { background-color: rgb(255, 255, 255); border-top-left-radius: 3px; border-top-right-radius: 3px; bottom: 32px; height: 0px; left: 12px; overflow: hidden; padding-left: 12px; padding-right: 12px; padding-top: 12px; position: absolute; transition: all 0.25s ease-out 0s; width: 209px; }
+.HoverCard:hover .HoverCardRoot { height: 128px; transition: all 0.25s ease-out 0s; }
+.HoverCardPhotos, .HoverCardProfile, .HoverCardStatus, .HoverCardUserName { -moz-box-align: center; align-items: center; display: flex; -moz-box-orient: horizontal; -moz-box-direction: normal; flex-direction: row; }
+.HoverCardProfile img { border-radius: 17px; height: 34px; margin-right: 12px; width: 34px; }
+.HoverCardUser { width: 163px; }
+.HoverCardUserName .Username { color: rgb(38, 38, 38); -moz-box-flex: 0; flex-grow: 0; font-size: 14px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.HoverCardStatus span { color: rgb(142, 142, 142); font-size: 12px; }
+.HoverCardPhotos { margin-top: 12px; }
+.HoverCardPhotos img { height: 104px; margin-right: 1px; width: 104px; }
+.FollowerCountText { color: rgb(142, 142, 142); line-height: 14px; font-size: 12px; }

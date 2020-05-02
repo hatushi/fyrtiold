@@ -1,0 +1,25 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 300;
+  src: url("gotham-book-webfont.woff2") format("woff2"), url("gotham-book-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  src: url("gotham-medium-webfont.woff2") format("woff2"), url("gotham-medium-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 700;
+  src: url("gotham-bold-webfont.woff2") format("woff2"), url("gotham-bold-webfont.woff") format("woff");
+}
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 900;
+  src: url("gotham-black-webfont.woff2") format("woff2"), url("gotham-black-webfont.woff") format("woff");
+}

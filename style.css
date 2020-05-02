@@ -1,0 +1,23 @@
+/* Code tidied up by ScrapBook */
+*, *::after, *::before { box-sizing: border-box; text-rendering: optimizelegibility; }
+html { font-size: 62.5%; }
+.clear::before, .clear::after { content: " "; display: table; }
+.clear::after { clear: both; }
+.clear {  }
+img { max-width: 100%; vertical-align: bottom; }
+a { color: rgb(68, 68, 68); text-decoration: none; }
+a:hover { color: rgb(68, 68, 68); }
+a:focus { outline: 0px none; }
+a:hover, a:active { outline: 0px none; }
+input:focus { outline: 0px none; border: 1px solid rgb(4, 164, 204); }
+*::-moz-selection { background: rgb(4, 164, 204) none repeat scroll 0% 0%; color: rgb(255, 255, 255); text-shadow: none; }
+@media print {
+  * { background: transparent none repeat scroll 0% 0% !important; color: rgb(0, 0, 0) !important; box-shadow: none !important; text-shadow: none !important; }
+  a, a:visited { text-decoration: underline; }
+  a[href]::after { content: " (" attr(href) ")"; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 {  }
+  h2, h3 { page-break-after: avoid; }
+}
